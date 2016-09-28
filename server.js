@@ -29,11 +29,11 @@ var articles={
     },
 };
 
-function createtemplate(data){
-     var title=data.title;
-     var date=data.date;
-     var heading=data.heading ;
-     var content=data.content;
+function createtemplate(dat){
+     var title=dat.title;
+     var date=dat.date;
+     var heading=dat.heading ;
+     var content=dat.content;
 var htmltemplate=`
 <html>
    <head>
