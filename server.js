@@ -30,42 +30,42 @@ var articles={
 };
 
 function createtemplate(dat){
-     var title=dat.title;
-     var date=dat.date;
-     var heading=dat.heading ;
-     var content=dat.content;
-var htmltemplate=`
-<html>
-   <head>
-    <title>
-        ${title}
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link href="/ui/style.css" rel="stylesheet" />
-
-   </head>
-<body>
-    <div class="container">
-         <div>
-            <a href="/">Home</a>
+     var title1=dat.title;
+     var date1=dat.date;
+     var heading1=dat.heading ;
+     var content1=dat.content;
+    var htmltemplate=`
+    <html>
+       <head>
+        <title>
+            ${title1}
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link href="/ui/style.css" rel="stylesheet" />
+    
+       </head>
+    <body>
+        <div class="container">
+             <div>
+                <a href="/">Home</a>
+                  </div>
+              <hr/>
+              <h3>
+                         ${heading1}
+              </h3>
+              <div>
+                         ${date1}
               </div>
-          <hr/>
-          <h3>
-                     ${heading}
-          </h3>
-          <div>
-                     ${date}
-          </div>
-          <div>
-              <p>
-                ${content}
-              </p>
-           </div>
-    </div>
-</body>
-</html>
-`;
-return htmltemplate;
+              <div>
+                  <p>
+                    ${content1}
+                  </p>
+               </div>
+        </div>
+    </body>
+    </html>
+    `;
+    return htmltemplate;
 }
 
 app.get('/', function (req, res) {
