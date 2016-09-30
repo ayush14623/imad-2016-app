@@ -5,11 +5,11 @@ var ele= document.getElementById('maint');
 ele.innerHTML= 'new';
 
 // move img
-var marginLeft=0;
+var marginLeft1=0;
 var img=document.getElementById('img1');
 function moveRight(){
-    marginLeft = marginLeft + 5;
-    img.style.marginLeft= marginLeft +'px';
+    marginLeft1 = marginLeft1 + 5;
+    img.style.marginLeft= marginLeft1 +'px';
 }
 
 img.onclick =function(){
