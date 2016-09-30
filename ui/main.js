@@ -7,8 +7,8 @@ ele.innerHTML= 'new';
 // move img
 var img=document.getElementById('img1');
 function moveRight(){
-    marginLeft =marginLeft + 5;
-    img.style.marginLeft= marginLeft+'px';
+    marginLeft = marginLeft + 5;
+    img.style.marginLeft= marginLeft +'px';
 }
 
 img.onclick =function(){
