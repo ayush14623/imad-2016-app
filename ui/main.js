@@ -1,8 +1,8 @@
 console.log('Loaded!');
 
 //change the text of maint
-var ele= document.getElementById('maint');
-ele.innerHTML= 'new';
+/*var ele= document.getElementById('maint');
+ele.innerHTML= 'new';*/
 
 // move img
 var marginLeft1=0;
