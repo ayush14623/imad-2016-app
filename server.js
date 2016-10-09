@@ -105,14 +105,15 @@ function createtemplate(dat){
     `;
     return htmltemplate;
 }
-function createtemplate1(dat){
-     var title=dat.title;
-     var date=dat.date;
-     var heading=dat.heading ;
-     var content=dat.content;
-     var room_no=dat.room_no;
-     var college=dat.college;
-    var htmltemplate=`
+
+function createtemplate1(data){
+     var title=data.title;
+     var date=data.date;
+     var heading=data.heading ;
+     var content=data.content;
+     var room_no=data.room_no;
+     var college=data.college;
+    var htmltemplate1=`
     <html>
        <head>
         <title>
@@ -153,7 +154,7 @@ function createtemplate1(dat){
     </body>
     </html>
     `;
-    return htmltemplate;
+    return htmltemplate1;
 }
 
 app.get('/', function (req, res) {
