@@ -34,36 +34,36 @@ var friends={
         heading: 'Ayush Verma',
         date: 'Oct 09,2016',
         content:`Ayush Verma 
-                Hometown-Kanpur UP`
-        college:`Gl bajaj Institute of Technology And Management `
-        room_no:`Room C-310`
+                Hometown-Kanpur UP`,
+        college:`Gl bajaj Institute of Technology And Management `,
+        room_no:`Room C-310`,
     },
     'ankit': {
         title:'Ankit',
         heading: 'Ankit Kumar',
         date: 'Oct 09,2016',
         content:`Ankit Kumar 
-                Hometown-Patna Bihar`
-        college:`Gl bajaj Institute of Technology And Management `
-        room_no:`Room C-310`
+                Hometown-Patna Bihar`,
+        college:`Gl bajaj Institute of Technology And Management `,
+        room_no:`Room C-310`,
     },
     'shivam': {
         title:'Shivam',
         heading: 'Shivam Sharma',
         date: 'Oct 09,2016',
         content:`Shivam Sharma 
-                Hometown-Patna Bihar`
-        college:`IEC `
-        room_no:`Room C-311`
+                Hometown-Patna Bihar`,
+        college:`IEC `,
+        room_no:`Room C-311`,
     },
     'surud':{
         title:'Surud',
         heading: 'Surud Iqbal',
         date: 'Oct 09,2016',
         content:`Surud Iqbal 
-                Hometown-Gaya Bihar`
-        college:`IEC `
-        room_no:`Room C-311`
+                Hometown-Gaya Bihar`,
+        college:`IEC `,
+        room_no:`Room C-311`,
     },
 };
 
