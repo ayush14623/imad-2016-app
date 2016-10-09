@@ -36,7 +36,7 @@ var friends={
         content:`Ayush Verma 
                 Hometown-Kanpur UP`,
         college:`Gl bajaj Institute of Technology And Management `,
-        room_no:`Room C-310`,
+        room_no:`Room C-310`
     },
     'ankit': {
         title:'Ankit',
@@ -45,7 +45,7 @@ var friends={
         content:`Ankit Kumar 
                 Hometown-Patna Bihar`,
         college:`Gl bajaj Institute of Technology And Management `,
-        room_no:`Room C-310`,
+        room_no:`Room C-310`
     },
     'shivam': {
         title:'Shivam',
@@ -54,7 +54,7 @@ var friends={
         content:`Shivam Sharma 
                 Hometown-Patna Bihar`,
         college:`IEC `,
-        room_no:`Room C-311`,
+        room_no:`Room C-311`
     },
     'surud':{
         title:'Surud',
@@ -63,7 +63,7 @@ var friends={
         content:`Surud Iqbal 
                 Hometown-Gaya Bihar`,
         college:`IEC `,
-        room_no:`Room C-311`,
+        room_no:`Room C-311`
     },
 };
 
