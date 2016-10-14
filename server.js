@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articles={
+/*var articles={
     'article1': {
         title:'Article1',
         heading: 'Article1',
@@ -27,7 +27,7 @@ var articles={
         content:`This is my third article.
                  howz you`
     },
-};
+};*/
 var friends={
     'ayush': {
         title:'Ayush',
@@ -67,7 +67,7 @@ var friends={
     },
 };
 
-function createtemplate(dat){
+/*function createtemplate(dat){
      var title1=dat.title;
      var date1=dat.date;
      var heading1=dat.heading ;
@@ -104,7 +104,7 @@ function createtemplate(dat){
     </html>
     `;
     return htmltemplate;
-}
+}*/
 
 function createtemplate1(data){
      var title=data.title;
@@ -113,7 +113,7 @@ function createtemplate1(data){
      var content=data.content;
      var room_no=data.room_no;
      var college=data.college;
-    var htmltemplate1=`
+    var htmltemplate1 =`
     <html>
        <head>
         <title>
@@ -160,10 +160,10 @@ function createtemplate1(data){
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/:articleName',function(req, res){
+/*app.get('/:articleName',function(req, res){
     var articleName= req.params.articleName;
   res.send(createtemplate(articles[articleName]));
-});
+});*/
 
 app.get('/gn:Name',function(req, res){
     var Name= req.params.Name;
